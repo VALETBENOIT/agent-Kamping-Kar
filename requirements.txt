@@ -1,0 +1,3 @@
+mistralai[voice-agents]>=1.9
+PyYAML>=6.0
+pytest>=8.0

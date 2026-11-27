@@ -1,0 +1,63 @@
+entreprise: "Votre Entreprise"
+
+# Service par défaut quand aucun autre ne correspond
+default_service: accueil
+
+services:
+  accueil:
+    display_name: "Accueil"
+    contact_name: "La secrétaire"
+    contact_email: "secretariat@exemple.com"
+    keywords: ["accueil", "renseignement", "horaires", "adresse", "générique"]
+
+  ventes:
+    display_name: "Service commercial"
+    contact_name: "L'équipe commerciale"
+    contact_email: "commercial@exemple.com"
+    keywords:
+      - devis
+      - prix
+      - tarif
+      - achat
+      - commande
+      - produit
+      - catalogue
+
+  support:
+    display_name: "Support technique"
+    contact_name: "L'équipe support"
+    contact_email: "support@exemple.com"
+    keywords:
+      - problème
+      - panne
+      - bug
+      - réparation
+      - assistance
+      - aide
+      - ne fonctionne pas
+
+  facturation:
+    display_name: "Service facturation"
+    contact_name: "Le service comptabilité"
+    contact_email: "facturation@exemple.com"
+    keywords:
+      - facture
+      - paiement
+      - règlement
+      - avoir
+      - impayé
+      - acompte
+
+  rh:
+    display_name: "Ressources humaines"
+    contact_name: "Le service RH"
+    contact_email: "rh@exemple.com"
+    keywords:
+      - emploi
+      - candidature
+      - stage
+      - alternance
+      - recrutement
+      - cv
+      - salaire
+      - congé
