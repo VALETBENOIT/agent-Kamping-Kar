@@ -26,7 +26,6 @@ services:
       - tarif
       - essai
       - kilométrage
-      - carte grise
       - financement
 
   camping-cars:
@@ -43,3 +42,19 @@ services:
       - cellule
       - porteur
       - carporteur
+
+  administratif:
+    display_name: "Service administratif (cartes grises)"
+    contact_name: "Le service administratif"
+    contact_email: "gocars-immat@outlook.fr"
+    keywords:
+      - carte grise
+      - cartes grises
+      - immatriculation
+      - immatriculer
+      - certificat
+      - administratif
+      - plaque
+      - changement de titulaire
+      - titulaire
+      - cession
