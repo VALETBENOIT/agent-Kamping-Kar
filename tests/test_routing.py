@@ -44,6 +44,12 @@ def test_resolve_accent_insensitive(services):
     assert resolve_service("probleme de reparation", all_services) is all_services["support"]
 
 
+def test_resolve_plural(services):
+    _, all_services = services
+    all_services["support"].keywords.append("caravane")
+    assert resolve_service("vous avez des caravanes ?", all_services) is all_services["support"]
+
+
 def test_resolve_unknown_returns_none(services):
     _, all_services = services
     assert resolve_service("bonjour", all_services) is None

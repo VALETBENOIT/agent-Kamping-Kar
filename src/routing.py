@@ -45,7 +45,7 @@ def resolve_service(text: str, services: dict[str, Service]) -> Service | None:
     for service in services.values():
         for keyword in [*service.keywords, service.key, service.display_name]:
             word = _normalize(keyword)
-            if not word or not re.search(rf"(^|\W){re.escape(word)}(\W|$)", normalized):
+            if not word or not re.search(rf"(^|\W){re.escape(word)}s?(\W|$)", normalized):
                 continue
             if len(word) > best[0] or (len(word) == best[0] and best[1] is None):
                 best = (len(word), service)

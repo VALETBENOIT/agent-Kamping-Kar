@@ -1,4 +1,4 @@
-entreprise: "Votre Entreprise"
+entreprise: "Kamping-Kar"
 
 # Service par défaut quand aucun autre ne correspond
 default_service: accueil
@@ -6,58 +6,40 @@ default_service: accueil
 services:
   accueil:
     display_name: "Accueil"
-    contact_name: "La secrétaire"
-    contact_email: "secretariat@exemple.com"
+    contact_name: "L'équipe Kamping-Kar"
+    contact_email: "gocars-50@outlook.fr"
     keywords: ["accueil", "renseignement", "horaires", "adresse", "générique"]
 
   ventes:
-    display_name: "Service commercial"
-    contact_name: "L'équipe commerciale"
-    contact_email: "commercial@exemple.com"
+    display_name: "Vente de véhicules d'occasion"
+    contact_name: "L'équipe des ventes"
+    contact_email: "gocars-50@outlook.fr"
     keywords:
+      - véhicule
+      - voiture
+      - occasion
+      - vente
+      - achat
+      - reprise
       - devis
       - prix
       - tarif
-      - achat
-      - commande
-      - produit
-      - catalogue
+      - essai
+      - kilométrage
+      - carte grise
+      - financement
 
-  support:
-    display_name: "Support technique"
-    contact_name: "L'équipe support"
-    contact_email: "support@exemple.com"
+  camping-cars:
+    display_name: "Vente de camping-cars d'occasion"
+    contact_name: "L'équipe camping-cars"
+    contact_email: "kampingkar@outlook.fr"
     keywords:
-      - problème
-      - panne
-      - bug
-      - réparation
-      - assistance
-      - aide
-      - ne fonctionne pas
-
-  facturation:
-    display_name: "Service facturation"
-    contact_name: "Le service comptabilité"
-    contact_email: "facturation@exemple.com"
-    keywords:
-      - facture
-      - paiement
-      - règlement
-      - avoir
-      - impayé
-      - acompte
-
-  rh:
-    display_name: "Ressources humaines"
-    contact_name: "Le service RH"
-    contact_email: "rh@exemple.com"
-    keywords:
-      - emploi
-      - candidature
-      - stage
-      - alternance
-      - recrutement
-      - cv
-      - salaire
-      - congé
+      - camping-car
+      - camping car
+      - camping
+      - caravane
+      - van
+      - fourgon aménagé
+      - cellule
+      - porteur
+      - carporteur
