@@ -28,3 +28,18 @@ services:
       - kilométrage
       - carte grise
       - financement
+
+  camping-cars:
+    display_name: "Vente de camping-cars d'occasion"
+    contact_name: "L'équipe camping-cars"
+    contact_email: "kampingkar@outlook.fr"
+    keywords:
+      - camping-car
+      - camping car
+      - camping
+      - caravane
+      - van
+      - fourgon aménagé
+      - cellule
+      - porteur
+      - carporteur
